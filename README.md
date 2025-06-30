@@ -1,3 +1,8 @@
+## Installation with UV
+
+`uv tool install freshfiles`
+
+
 ## Sample use-case in bash
 
 ```shell
