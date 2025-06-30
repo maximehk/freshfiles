@@ -24,7 +24,7 @@ Project link: https://just.systems/man/en/introduction.html
 _maybe_authenticate:
   #!/usr/bin/env bash
   set -euo pipefail
-  freshfiles --max-age-seconds 3 .authfile && echo "auth still valid" || { 
+  freshfiles --max-age-seconds 3600 .authfile && echo "Credentials still valid" || { 
         echo "authenticating" # replace with actual authentication
         touch .authfile
   }
